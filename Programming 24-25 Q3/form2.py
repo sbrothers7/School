@@ -1,0 +1,1 @@
+for i in range(len(a := input())): print(a[i] * (i + 1) + "*" * (len(a) - 1 - i))
