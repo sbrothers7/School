@@ -38,8 +38,6 @@ this solution uses two loops intentionally,
 as using the modulus operator to distinguish between 
 the inverse and normal cases is actually slower.
 instead of using loops to print the same characters, 
-it uses string multiplication which is more efficient.
+it uses string multiplication.
 '''
 
-# One-liner:
-exec("n = int(input())\nfor i in range(n - 1): print(\"* \" * (i + 1) + \". \" * ((n - i - 2) * 2 + 1) + \"* \" * (i + 1))\nprint(\"* \" * (n * 2 - 1))\nfor i in range(n - 2, -1 , -1): print(\"* \" * (i + 1) + \". \" * ((n - i - 2) * 2 + 1) + \"* \" * (i + 1))")

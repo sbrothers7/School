@@ -31,5 +31,3 @@ elif n == 3:
     i = float(input("What is the current(amps)? "))
     print(f"The resistance is {v / i} ohms.")
 
-# One-liner:
-exec("n = int(input(\"Welcome to the Voltage-Current-Resistance Calculator!\\n\\nWhat are you trying to solve for?\\n1 - Voltage\\n2 - Current\\n3 - Resistance\\n\")); print(); data = [0] * 3\nif n in (2, 3): data[0] = float(input(\"What is the voltage(volts)? \"))\nif n in (1, 3): data[1] = float(input(\"What is the current(amps)? \"))\nif n in (1, 2): data[2] = float(input(\"What is the resistance(ohms)? \"))\nref = [[\"voltage\", round(data[1] * data[2], 2), \"volts\"], [\"current\", round(data[0] / data[2], 2), \"amps\"], [\"resistance\", round(data[0] / data[1], 2), \"ohms\"]]; print(f\"\\nThe {ref[n - 1][0]} is {ref[n - 1][1]} {ref[n - 1][2]}.\")")

@@ -1,0 +1,13 @@
+Input:
+- 1 line of string
+
+Example:
+
+	Input:
+		ABCD
+	
+	Output:
+		A***
+		BB**
+		CCC*
+		DDDD

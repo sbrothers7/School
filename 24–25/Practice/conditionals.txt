@@ -1,0 +1,35 @@
+Pay Slip Problem
+
+Write a program to compute an employee’s weekly pay and print a pay slip showing gross pay, tax deductions, and net pay.
+Input to the program should consist of the following items:
+- the hourly rate of pay: an integer number (e.g. 25000)
+- the number of hours worked that week: an integer number
+- the employee’s tax category: a letter referring to certain percentile of the gross pay that is to be deducted:
+
+=============================
+Letter		Deduction
+=============================
+A			no tax deductions
+B			6% tax
+C			15% tax
+D			24% tax
+E			35% tax
+
+When performing the calculations take into account that any hours over 40 are paid at double the normal hourly rate!
+Follow these steps to write the program:
+	•	First ask the three questions and store the answers into three variables.
+	•	Next, calculate the gross pay, taking into account the double rate for overtime hours.
+	•	Then calculate the tax as a percentage from the gross pay, based on the tax category.
+	•	Finally, output the gross pay, the tax deductions, and what is left as net pay.
+
+Example:
+
+Welcome to the PaySlip Calculator
+
+Enter your hourly rate: 10000
+How many hours did you work this week: 50
+Enter your tax category: C
+
+Gross Pay: $600000
+Tax Deduction: $90000
+Net Pay: $510000
