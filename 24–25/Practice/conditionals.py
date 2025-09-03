@@ -29,6 +29,3 @@ grossPay minus the deductions according to the tax category, then since
 deduction is now a valid variable, it is possible to print the final 
 value in the same line in the print statement
 '''
-
-# One-liner:
-exec("print(\"Welcome to the PaySlip Calculator\\n\"); rate = int(input(\"Enter your hourly rate: \")); hours = int(input(\"How many hours did you work this week: \")); tax = ord(input(\"Enter your tax category: \").upper()) - 65; deductions = [0, 0.06, 0.15, 0.24, 0.35]\nif hours > 40: print(\"\\nGross Pay: $\" + str(grossPay := rate * 40 + (rate * 2 * (hours - 40))))\nelse: print(\"\\nGross Pay: $\" + str(grossPay := rate * hours))\nprint(\"Tax Deduction: $\" + str(deduction := int(grossPay * deductions[tax])) + \"\\nNet Pay: $\" + str(grossPay - deduction))")
